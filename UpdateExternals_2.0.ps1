@@ -1,5 +1,5 @@
 Param(
-    [string]$Directory = "migracion",
+    [string]$Directory = "trunk",
     [int]$NewRevision = -1,
     [switch]$Force = $false
 )
