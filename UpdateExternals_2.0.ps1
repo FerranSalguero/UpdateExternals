@@ -6,7 +6,7 @@ Param(
 
 $ErrorActionPreference = "Stop"
 
-$REVISION_REGEX_FORMAT = "(?mi)(?<beforeNumber>.+)@(?<number>[0-9]+)(?<afterNumber>.*)"
+$REVISION_REGEX_FORMAT = "(?mi)(-r [0-9]+)? (?<beforeNumber>.+)@(?<number>[0-9]+)(?<afterNumber>.*)"
 $REGEX_FOLDER_FORMAT = "(?mi)Properties on '(?<folderPath>.*)':"
 
 function Invoke-Svn([string]$arguments)
