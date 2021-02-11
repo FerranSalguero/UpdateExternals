@@ -12,6 +12,7 @@ directoryToUpdate: "trunk" by default
 Versions
 =======
 
-v2.0: updates externals in all project in argument directory path (or trunk by default)
-v1.0: Adapted from forum found solution (sorry, lost link...), updates externals in argument directory path (or trunk by default). Keeping for reference only
+* v2.0: updates externals in all project in argument directory path (or trunk by default)
+
+* v1.0: Adapted from forum found solution (sorry, lost link...), updates externals in argument directory path (or trunk by default). Keeping for reference only
 
